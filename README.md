@@ -15,7 +15,7 @@ at pool games.
 
 <p class=MsoNormal>Here's a demo video of Cassapa:</p>
 <p align="center">
-  <a target="_blank" href="https://www.youtube.com/watch?v=hyuzagXqEP8"><img src="https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/youtube_screen"></a>
+  <a target="_blank" href="https://www.youtube.com/watch?v=hyuzagXqEP8"><img src="https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/youtube_screen.jpg"></a>
 </p>
 <p class=MsoNormal>Please note that this video was shot using a really crap projector :)</p>
 
