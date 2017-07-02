@@ -19,6 +19,9 @@ at pool games.
 </p>
 <p class=MsoNormal>Please note that this video was shot using a really crap projector :)</p>
 
+<p><Strong>Download</strong><p>
+<p>You can download the binary files by clicking <a href="https://github.com/aporto/cassapa/blob/master/cassapa_release.zip?raw=true">here</a>. There's no installer. Simply create a folder and unzip the contents on it.
+
 <h1 style='margin-left:19.8pt;text-indent:-19.8pt'><span lang=PT-BR>1.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
 lang=PT-BR>Overview</span></h1>
