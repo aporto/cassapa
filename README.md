@@ -114,7 +114,9 @@ restarted)</p>
 
 <p class=MsoNormal>This is the server GUI:</p>
 
-![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image002.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image002.png">
+</p>
 
 <p class=MsoNormal>After making sure the server is running ok, launch the
 software cassapa_client.exe on the remote control computer.</p>
