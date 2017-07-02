@@ -53,32 +53,7 @@ has a minimalist user interface, all control is done via this viewer.</p>
 <p class=MsoNormal>In order to use <span class=SpellE>Cassapa</span> software,
 you need to provide the following infrastructure:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
-style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
- coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
- filled="f" stroked="f">
- <v:stroke joinstyle="miter"/>
- <v:formulas>
-  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
-  <v:f eqn="sum @0 1 0"/>
-  <v:f eqn="sum 0 0 @1"/>
-  <v:f eqn="prod @2 1 2"/>
-  <v:f eqn="prod @3 21600 pixelWidth"/>
-  <v:f eqn="prod @3 21600 pixelHeight"/>
-  <v:f eqn="sum @0 0 1"/>
-  <v:f eqn="prod @6 1 2"/>
-  <v:f eqn="prod @7 21600 pixelWidth"/>
-  <v:f eqn="sum @8 21600 0"/>
-  <v:f eqn="prod @7 21600 pixelHeight"/>
-  <v:f eqn="sum @10 21600 0"/>
- </v:formulas>
- <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
- <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_7" o:spid="_x0000_i1035" type="#_x0000_t75"
- style='width:326.4pt;height:285.6pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="cassapa_tutorial_files/image001.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img width=544 height=476
-src="cassapa_tutorial_files/image002.png" v:shapes="Picture_x0020_7"><![endif]></span></p>
+![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/blue_sheet.png)
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l2 level1 lfo9'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
