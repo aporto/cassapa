@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/kassapa_viewer">
+        <file>Resources/images/ball.png</file>
+        <file>Resources/images/click_to_finish.png</file>
+        <file>Resources/images/config_balls.png</file>
+        <file>Resources/images/config_borders.png</file>
+        <file>Resources/images/config_cue.png</file>
+        <file>Resources/images/config_return.png</file>
+        <file>Resources/images/connection.png</file>
+        <file>Resources/images/cue.png</file>
+        <file>Resources/images/connecting_message.png</file>
+        <file>Resources/images/no_cassapa.png</file>
+        <file>Resources/images/number_1.png</file>
+        <file>Resources/images/number_2.png</file>
+        <file>Resources/images/number_3.png</file>
+        <file>Resources/images/number_4.png</file>
+        <file>Resources/images/config_projector.png</file>
+        <file>Resources/images/no_camera.png</file>
+        <file>Resources/images/fire_icon.png</file>
+        <file>Resources/images/ice_icon.png</file>
+        <file>Resources/images/config_restart.png</file>
+    </qresource>
+</RCC>
