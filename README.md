@@ -3,14 +3,11 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=Generator content="Microsoft Word 14 (filtered)">
-
-
 </head>
 
 <body lang=EN-US>
 
 <div class=WordSection1>
-
 
 <h1 style='margin-left:19.8pt;text-indent:-19.8pt'><span lang=PT-BR>1.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
@@ -117,8 +114,7 @@ restarted)</p>
 
 <p class=MsoNormal>This is the server GUI:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=359
-height=179 id="Picture 2" src="cassapa_tutorial_files/image002.png"></p>
+![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image002.png)
 
 <p class=MsoNormal>After making sure the server is running ok, launch the
 software cassapa_client.exe on the remote control computer.</p>
@@ -126,32 +122,28 @@ software cassapa_client.exe on the remote control computer.</p>
 <p class=MsoNormal>The client will try to find a server on the same network. If
 it fails to find one, you’ll see the following image on client:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=513
-height=370 id="Picture 3" src="cassapa_tutorial_files/image003.jpg"></p>
+![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image003.png)
 
 <p class=MsoNormal>In this case, check your network connections and check if
 server is running. After fixing the problems, you can force the client to try a
 new connection by double-clicking any part of the client window. You’ll see the
 client trying to find a new server:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=514
-height=371 id="Picture 4" src="cassapa_tutorial_files/image004.jpg"></p>
+![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image004.png)
 
 <p class=MsoNormal>After connecting, the client starts displaying the server
 camera images, overlayed by server and game data. If the server experiences any
 problem to capture the camera image, you’ll see the following image on the
 client software:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=527
-height=380 id="Picture 1" src="cassapa_tutorial_files/image005.jpg"></p>
+![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image005.png)
 
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>If everything runs ok, you shall see the pool table image on
 the client window:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=520
-height=376 id="Picture 5" src="cassapa_tutorial_files/image006.jpg"></p>
+![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image006.png)
 
 <p class=MsoNormal>But note that the detection of the pool table, cue and balls
 still depends on the correct configuration of the system, so it’s very unlikely
@@ -182,8 +174,7 @@ gray when detection fails.</p>
 client window, while it is displaying the camera image. The configuration
 window will pop-up:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=334
-height=219 id="Picture 6" src="cassapa_tutorial_files/image007.jpg"></p>
+![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image007.png)
 
 <p class=MsoNormal>This window has 7 buttons, from top-left to bottom-right:</p>
 
@@ -221,8 +212,7 @@ style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&n
 Open the configuration window and click the table configuration button to
 display this image on the client window:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=402
-height=291 id="Picture 8" src="cassapa_tutorial_files/image008.jpg"></p>
+![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image008.png)
 
 <p class=MsoNormal>This will display the table limits the server considers
 during game detection. Use the mouse to drag the top-left and bottom-right
@@ -240,8 +230,7 @@ and balls. </p>
 <p class=MsoNormal>Both cue and balls configuration is similar: Click the
 corresponding config button to open the color adjust window: </p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=478
-height=284 id="Picture 9" src="cassapa_tutorial_files/image009.jpg"></p>
+![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image009.png)
 
 <p class=MsoNormal>As commented before, detecting the cue and balls correctly
 and fast is hard. So, the system is highly dependent on using the cue and table
@@ -262,8 +251,7 @@ case, it’s recommended that you try a different cue color.</p>
 <p class=MsoNormal>After this configuration, you shall be able to watch the
 game detection on the client window:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=520
-height=376 id="Picture 10" src="cassapa_tutorial_files/image010.jpg"></p>
+![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image010.png)
 
 <p class=MsoNormal>If everything went fine, it’s time to start the
 cassapa_projector.exe application on the server, and configure its output.</p>
@@ -277,8 +265,7 @@ exactly on the top of the table center, so you’ll probably need to adjust the
 projector distortion. You can do this on the configuration window, pressing the
 projector configuration button:</p>
 
-<p class=MsoNormal align=center style='text-align:center'><img width=405
-height=293 id="Picture 11" src="cassapa_tutorial_files/image011.jpg"></p>
+![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/image011.png)
 
 <p class=MsoNormal>As soon as the projection configuration starts, you’ll see
 that the projector starts displaying a calibration pattern (not displayed on
