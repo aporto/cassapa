@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "projector", "projects\cassapa_projector_win\cassapa_projector.vcxproj", "{C6DF5F7A-2506-4487-ACB1-DC7E05BFD85F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cassapa_server_win", "projects\cassapa_server_win\cassapa_server_win.vcxproj", "{AEB4ABFF-9FCB-453E-96B4-7148274D388D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "viewer", "projects\cassapa_viewer_win\cassapa_viewer.vcxproj", "{100C7F9E-AAFF-4A1A-9348-A6D8521F7A1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6DF5F7A-2506-4487-ACB1-DC7E05BFD85F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6DF5F7A-2506-4487-ACB1-DC7E05BFD85F}.Debug|Win32.Build.0 = Debug|Win32
+		{C6DF5F7A-2506-4487-ACB1-DC7E05BFD85F}.Release|Win32.ActiveCfg = Release|Win32
+		{C6DF5F7A-2506-4487-ACB1-DC7E05BFD85F}.Release|Win32.Build.0 = Release|Win32
+		{AEB4ABFF-9FCB-453E-96B4-7148274D388D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AEB4ABFF-9FCB-453E-96B4-7148274D388D}.Debug|Win32.Build.0 = Debug|Win32
+		{AEB4ABFF-9FCB-453E-96B4-7148274D388D}.Release|Win32.ActiveCfg = Release|Win32
+		{AEB4ABFF-9FCB-453E-96B4-7148274D388D}.Release|Win32.Build.0 = Release|Win32
+		{100C7F9E-AAFF-4A1A-9348-A6D8521F7A1D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{100C7F9E-AAFF-4A1A-9348-A6D8521F7A1D}.Debug|Win32.Build.0 = Debug|Win32
+		{100C7F9E-AAFF-4A1A-9348-A6D8521F7A1D}.Release|Win32.ActiveCfg = Release|Win32
+		{100C7F9E-AAFF-4A1A-9348-A6D8521F7A1D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

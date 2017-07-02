@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cassapa_server_win", "projects\cassapa_server_win\cassapa_server_win.vcxproj", "{AEB4ABFF-9FCB-453E-96B4-7148274D388D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB4ABFF-9FCB-453E-96B4-7148274D388D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AEB4ABFF-9FCB-453E-96B4-7148274D388D}.Debug|Win32.Build.0 = Debug|Win32
+		{AEB4ABFF-9FCB-453E-96B4-7148274D388D}.Release|Win32.ActiveCfg = Release|Win32
+		{AEB4ABFF-9FCB-453E-96B4-7148274D388D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
