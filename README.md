@@ -13,10 +13,10 @@
 at pool games.
 </p>
 
-<p class=MsoNormal>Here's a video demo of Cassapa</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hyuzagXqEP8" frameborder="0" allowfullscreen></iframe>
-
+<p class=MsoNormal>Here's a demo video of Cassapa:</p>
+<p align="center">
+  <a target="_blank" href="https://www.youtube.com/watch?v=hyuzagXqEP8"><img src="https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/youtube_screen"></a>
+</p>
 <p class=MsoNormal>Please note that this video was shot using a really crap projector :)</p>
 
 <h1 style='margin-left:19.8pt;text-indent:-19.8pt'><span lang=PT-BR>1.<span
@@ -49,7 +49,9 @@ all control is done via this viewer.</p>
 <p class=MsoNormal>In order to use Cassapa software, you need to provide the
 following infrastructure:</p>
 
-![](https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/blue_sheet.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aporto/cassapa/master/images/doc/blue_sheet.png">
+</p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
 style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
