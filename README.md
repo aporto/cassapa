@@ -10,7 +10,14 @@
 <div class=WordSection1>
 
 <p class=MsoNormal>Cassapa is system that uses augmented-reality to help aiming
-at pool games.</p>
+at pool games.
+</p>
+
+<p class=MsoNormal>Here's a video demo of Cassapa</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hyuzagXqEP8" frameborder="0" allowfullscreen></iframe>
+
+<p class=MsoNormal>Please note that this video was shot using a really crap projector :)</p>
 
 <h1 style='margin-left:19.8pt;text-indent:-19.8pt'><span lang=PT-BR>1.<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
