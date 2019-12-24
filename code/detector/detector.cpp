@@ -293,7 +293,7 @@ void Detector::FindAllBalls(void)
 	} 
 
 	if (abs(currentCueAngle - lastCueAngle) < 0.1) {
-		return;
+		//return; //// comentado para debug
 	}
 	
 	lastCueAngle = currentCueAngle;

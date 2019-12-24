@@ -101,7 +101,7 @@ void ImageTransmitter::SendImage(void)
 	mutex.unlock();
 
 	QByteArray qbuffer;
-	QDataStream out (qbuffer);
+	//QDataStream out (); //qbuffer);
 	unsigned int sz = buffer.size();
 	unsigned char ptrSz[4];
 	memcpy(ptrSz, &sz, 4);

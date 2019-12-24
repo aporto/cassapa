@@ -70,7 +70,7 @@ void Preview::Initialize(void)
 	//socket.PingAll(config.serverUDPPort); //SendConfig("255.255.255.255", config.serverUDPPort);
 	
 	if (socket.Start(0, &(config.input), &(config.output))) {
-		socket.PingAll(config.serverUDPPort, config.isMainController, false); //SendConfig("255.255.255.255", config.serverUDPPort);		
+		socket.DetectServer(config.serverIP, config.serverUDPPort, config.isMainController, false); //SendConfig("255.255.255.255", config.serverUDPPort);		
 	} else {
 		initializationError = -1;
 	}
@@ -829,7 +829,7 @@ void Preview::mouseDoubleClickEvent (QMouseEvent  *event)
 		if (lostConnection) {
 			if (lostConnectionAlpha <= 0.01) {
 				lostConnectionAlpha = 1.0;
-				socket.PingAll(config.serverUDPPort, config.isMainController, false);
+				socket.DetectServer(config.serverIP, config.serverUDPPort, config.isMainController, false);
 			}
 			return;
 		}

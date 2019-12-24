@@ -93,7 +93,7 @@ public:
 	void SendCalculations(void);
 	//bool SendImage(cv::Mat &image);
 	void SendConfig(void);//QString address, int port);	
-	void PingAll(int port, bool withConfig, bool isProjector);//QString address, int port);	
+	void DetectServer(QString ipAddress, int port, bool withConfig, bool isProjector);//QString address, int port);	
 	void PingServer(int port, bool isProjector);//QString address, int port);	
 	QString GetRemoteHost(void);	
 	QString GetServerAddress(void);

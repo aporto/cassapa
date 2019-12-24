@@ -91,9 +91,12 @@ void SocketServer::SlotCheckForData(void)
 	QHostAddress sender;
 	quint16 senderPort;
 
-	socket->readDatagram(datagram.data(), datagram.size(),
-									&sender, &senderPort);
+	int res = socket->readDatagram(datagram.data(), datagram.size(), &sender, &senderPort);
 	unsigned int * command = (unsigned int * ) (datagram.data());	
+
+	if (res < 0) {
+		return;
+	}
 
 	if (*command == CASSAPA_SOCKET_COMMAND_SEND_CONFIG) {
 		if (datagram.size() == sizeof(*poolInput)) {
@@ -222,7 +225,7 @@ void SocketServer::SendConfig(void)
 
 //-----------------------------------------------------------------------------
 
-void SocketServer::PingAll(int port, bool withConfig, bool isProjector)
+void SocketServer::DetectServer(QString ipAddress, int port, bool withConfig, bool isProjector)
 {
 	if (withConfig) {
 		if (isProjector) {
@@ -230,16 +233,17 @@ void SocketServer::PingAll(int port, bool withConfig, bool isProjector)
 		} else{
 			poolInput->command = CASSAPA_SOCKET_COMMAND_PING_WITH_CONFIG;
 		}		
-		SendData((char*) poolInput, sizeof(*poolInput), "255.255.255.255", port);
+
+		SendData((char*) poolInput, sizeof(*poolInput), ipAddress, port); //"255.255.255.255", port);
 		//SendData((char*) poolInput, sizeof(*poolInput), "192.168.1.52", port);
 	} else {
 		SocketServerSimpleMessage msg;
 		if (isProjector) {
-		msg.command = CASSAPA_SOCKET_COMMAND_PING_PROJECTOR;
-	} else{
-		msg.command = CASSAPA_SOCKET_COMMAND_PING;
-	}
-		SendData((char*) &msg, sizeof(SocketServerSimpleMessage), "255.255.255.255", port);	
+			msg.command = CASSAPA_SOCKET_COMMAND_PING_PROJECTOR;
+		} else{
+			msg.command = CASSAPA_SOCKET_COMMAND_PING;
+		}
+		SendData((char*) &msg, sizeof(SocketServerSimpleMessage), ipAddress, port);	
 	}	
 }
 
